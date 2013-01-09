@@ -47,7 +47,7 @@ if($cody !== NULL) {
 
   if($type == Everyman\Neo4j\Traversal::ReturnTypeNode) {
     foreach($nodes as $node) {
-      echo "\t" . $node->getID() . " => " . $node->getProperty('name');
+      echo "\t" . $node->getProperty('name') . ' (id=' . $node->getID() . ')';
       echo "\n";
     }
   }
