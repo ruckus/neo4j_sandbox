@@ -81,10 +81,10 @@ Distance: 3
 
 --------------- Traversals: Codys Friends & Friends of Friends (maxdepth=2) -----------------
 6 friends
-	3 => chris
-	2 => gary
-	7 => rebecca
-	6 => carol
-	5 => gerald
-	4 => josh
+	chris (id=3)
+	gary (id=2)
+	rebecca (id=7)
+	carol (id=6)
+	gerald (id=5)
+	josh (id=4)
 ```
