@@ -57,7 +57,7 @@ melissa recommends 25 Lusk
 suzanne recommends Zuni Cafe
 ```
 
-Finally we can run the query code which in turn runs the Cypher query. The place names are hard-coded into the Cypher query
+Finally we can run the query code which in turn runs the Cypher query. The place IDs (5,6) are hard-coded into the Cypher query
 but would of course need to be dropped into dynamically.
 
 The query asks: "Given a start node of Cody, show me all friends and friends-of-friends (so maxdepth=2) who have recommended
