@@ -2,7 +2,7 @@ Collection of PHP scripts to play with Neo4j graph database via its REST API.
 
 Uses the excellent PHP Neo4j API client: https://github.com/jadell/neo4jphp
 
-== Getting Started
+## Getting Started
 
 Create the Postgres database:
 
@@ -26,6 +26,12 @@ Go to http://localhost:7474/webadmin/ for administration interface.
 ```
 
 Now we want to populate Neo4j with data from the database. This PHP script will connect to Postgres and create the nodes and friendships.
+
+The Postgres connection credentials are set as:
+
+`host=localhost dbname=neo4j_sandbox user=postgres`
+
+If these are not valid for your machine update them in `db_connect.php`.
 
 ```bash
 $ php populate_neo.php
